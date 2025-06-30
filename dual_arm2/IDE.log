@@ -1,0 +1,664 @@
+21:02:25 DEBUG : Logs will be stored at '/home/blue/workspace/dual_arm2/IDE.log'.
+21:02:25 INFO  : Launching XSCT server: xsct -n  -interactive /home/blue/workspace/dual_arm2/temp_xsdb_launch_script.tcl
+21:02:25 INFO  : Registering command handlers for Vitis TCF services
+21:02:26 INFO  : Platform repository initialization has completed.
+21:02:26 INFO  : XSCT server has started successfully.
+21:02:26 INFO  : Successfully done setting XSCT server connection channel  
+21:02:27 INFO  : Successfully done setting workspace for the tool. 
+21:02:27 INFO  : Successfully done query RDI_DATADIR 
+21:02:27 INFO  : plnx-install-location is set to ''
+21:03:12 INFO  : Result from executing command 'getProjects': design_1_wrapper
+21:03:12 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+21:03:13 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:03:13 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+21:03:18 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+21:03:47 INFO  : Result from executing command 'getProjects': design_1_wrapper
+21:03:47 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+21:03:48 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+21:08:00 INFO  : Result from executing command 'getProjects': design_1_wrapper
+21:08:00 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+21:08:03 INFO  : Checking for BSP changes to sync application flags for project 'core1'...
+21:08:22 INFO  : Checking for BSP changes to sync application flags for project 'core0'...
+21:08:22 INFO  : Updating application flags with new BSP settings...
+21:08:22 INFO  : Successfully updated application flags for project core0.
+21:08:26 INFO  : Checking for BSP changes to sync application flags for project 'core1'...
+21:08:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:08:32 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+21:08:32 INFO  : 'jtag frequency' command is executed.
+21:08:32 INFO  : Context for 'APU' is selected.
+21:08:32 INFO  : System reset is completed.
+21:08:35 INFO  : 'after 3000' command is executed.
+21:08:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+21:08:36 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit"
+21:08:36 INFO  : Context for 'APU' is selected.
+21:08:36 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:08:36 INFO  : 'configparams force-mem-access 1' command is executed.
+21:08:36 INFO  : Context for 'APU' is selected.
+21:08:36 INFO  : Sourcing of '/home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl' is done.
+21:08:37 INFO  : 'ps7_init' command is executed.
+21:08:37 INFO  : 'ps7_post_config' command is executed.
+21:08:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:08:37 INFO  : The application '/home/blue/workspace/dual_arm2/core0/Debug/core0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:08:37 INFO  : 'configparams force-mem-access 0' command is executed.
+21:08:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}
+fpga -file /home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/blue/workspace/dual_arm2/core0/Debug/core0.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:08:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:08:37 INFO  : 'con' command is executed.
+21:08:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:08:37 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core0_system/_ide/scripts/debugger_core0-default.tcl'
+21:09:09 INFO  : Disconnected from the channel tcfchan#2.
+21:09:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:14 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+21:09:14 INFO  : 'jtag frequency' command is executed.
+21:09:14 INFO  : Context for 'APU' is selected.
+21:09:15 INFO  : System reset is completed.
+21:09:18 INFO  : 'after 3000' command is executed.
+21:09:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+21:09:19 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core1/_ide/bitstream/design_1_wrapper.bit"
+21:09:19 INFO  : Context for 'APU' is selected.
+21:09:19 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:09:19 INFO  : 'configparams force-mem-access 1' command is executed.
+21:09:19 INFO  : Context for 'APU' is selected.
+21:09:19 INFO  : Sourcing of '/home/blue/workspace/dual_arm2/core1/_ide/psinit/ps7_init.tcl' is done.
+21:09:19 INFO  : 'ps7_init' command is executed.
+21:09:19 INFO  : 'ps7_post_config' command is executed.
+21:09:19 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+21:09:19 INFO  : The application '/home/blue/workspace/dual_arm2/core1/Debug/core1.elf' is downloaded to processor 'ps7_cortexa9_1'.
+21:09:19 INFO  : 'configparams force-mem-access 0' command is executed.
+21:09:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}
+fpga -file /home/blue/workspace/dual_arm2/core1/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/blue/workspace/dual_arm2/core1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#1"}
+dow /home/blue/workspace/dual_arm2/core1/Debug/core1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:09:19 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+21:09:19 INFO  : 'con' command is executed.
+21:09:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#1"}
+con
+----------------End of Script----------------
+
+21:09:19 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core1_system/_ide/scripts/debugger_core1-default.tcl'
+21:09:34 INFO  : Disconnected from the channel tcfchan#3.
+21:09:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+21:09:43 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit"
+21:09:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:46 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+21:09:46 INFO  : 'jtag frequency' command is executed.
+21:09:46 INFO  : Context for 'APU' is selected.
+21:09:46 INFO  : System reset is completed.
+21:09:49 INFO  : 'after 3000' command is executed.
+21:09:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+21:09:50 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit"
+21:09:50 INFO  : Context for 'APU' is selected.
+21:09:50 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:09:50 INFO  : 'configparams force-mem-access 1' command is executed.
+21:09:50 INFO  : Context for 'APU' is selected.
+21:09:50 INFO  : Sourcing of '/home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl' is done.
+21:09:51 INFO  : 'ps7_init' command is executed.
+21:09:51 INFO  : 'ps7_post_config' command is executed.
+21:09:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:09:51 INFO  : The application '/home/blue/workspace/dual_arm2/core0/Debug/core0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:09:51 INFO  : 'configparams force-mem-access 0' command is executed.
+21:09:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}
+fpga -file /home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/blue/workspace/dual_arm2/core0/Debug/core0.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:09:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:09:51 INFO  : 'con' command is executed.
+21:09:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:09:51 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core0_system/_ide/scripts/debugger_core0-default.tcl'
+21:09:54 INFO  : Disconnected from the channel tcfchan#4.
+21:09:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:55 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+21:09:55 ERROR : port closed
+21:09:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+21:09:55 ERROR : port closed
+21:10:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:10:00 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+21:10:00 INFO  : 'jtag frequency' command is executed.
+21:10:00 INFO  : Context for 'APU' is selected.
+21:10:00 INFO  : System reset is completed.
+21:10:03 INFO  : 'after 3000' command is executed.
+21:10:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+21:10:04 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core1/_ide/bitstream/design_1_wrapper.bit"
+21:10:04 INFO  : Context for 'APU' is selected.
+21:10:04 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:10:04 INFO  : 'configparams force-mem-access 1' command is executed.
+21:10:04 INFO  : Context for 'APU' is selected.
+21:10:04 INFO  : Sourcing of '/home/blue/workspace/dual_arm2/core1/_ide/psinit/ps7_init.tcl' is done.
+21:10:05 INFO  : 'ps7_init' command is executed.
+21:10:05 INFO  : 'ps7_post_config' command is executed.
+21:10:05 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+21:10:05 INFO  : The application '/home/blue/workspace/dual_arm2/core1/Debug/core1.elf' is downloaded to processor 'ps7_cortexa9_1'.
+21:10:05 INFO  : 'configparams force-mem-access 0' command is executed.
+21:10:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}
+fpga -file /home/blue/workspace/dual_arm2/core1/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/blue/workspace/dual_arm2/core1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#1"}
+dow /home/blue/workspace/dual_arm2/core1/Debug/core1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:10:05 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+21:10:05 INFO  : 'con' command is executed.
+21:10:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#1"}
+con
+----------------End of Script----------------
+
+21:10:05 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core1_system/_ide/scripts/debugger_core1-default.tcl'
+21:10:44 INFO  : Disconnected from the channel tcfchan#5.
+16:12:38 DEBUG : Logs will be stored at '/home/blue/workspace/dual_arm2/IDE.log'.
+16:12:39 INFO  : Launching XSCT server: xsct -n  -interactive /home/blue/workspace/dual_arm2/temp_xsdb_launch_script.tcl
+16:12:40 INFO  : XSCT server has started successfully.
+16:12:40 INFO  : Successfully done setting XSCT server connection channel  
+16:12:40 INFO  : plnx-install-location is set to ''
+16:12:40 INFO  : Successfully done setting workspace for the tool. 
+16:12:40 INFO  : Successfully done query RDI_DATADIR 
+16:12:40 INFO  : Registering command handlers for Vitis TCF services
+16:12:40 INFO  : Platform repository initialization has completed.
+16:13:45 INFO  : No changes in MSS file content so sources will not be generated.
+16:13:50 INFO  : No changes in MSS file content so sources will not be generated.
+16:14:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:14:07 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:14:07 INFO  : 'jtag frequency' command is executed.
+16:14:07 INFO  : Context for 'APU' is selected.
+16:14:08 INFO  : System reset is completed.
+16:14:11 INFO  : 'after 3000' command is executed.
+16:14:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:14:12 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core1/_ide/bitstream/design_1_wrapper.bit"
+16:14:12 INFO  : Context for 'APU' is selected.
+16:14:12 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:14:12 INFO  : 'configparams force-mem-access 1' command is executed.
+16:14:12 INFO  : Context for 'APU' is selected.
+16:14:12 INFO  : Sourcing of '/home/blue/workspace/dual_arm2/core1/_ide/psinit/ps7_init.tcl' is done.
+16:14:12 INFO  : 'ps7_init' command is executed.
+16:14:12 INFO  : 'ps7_post_config' command is executed.
+16:14:12 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:14:12 INFO  : The application '/home/blue/workspace/dual_arm2/core1/Debug/core1.elf' is downloaded to processor 'ps7_cortexa9_1'.
+16:14:12 INFO  : 'configparams force-mem-access 0' command is executed.
+16:14:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}
+fpga -file /home/blue/workspace/dual_arm2/core1/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/blue/workspace/dual_arm2/core1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#1"}
+dow /home/blue/workspace/dual_arm2/core1/Debug/core1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:14:12 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:14:12 INFO  : 'con' command is executed.
+16:14:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#1"}
+con
+----------------End of Script----------------
+
+16:14:12 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core1_system/_ide/scripts/debugger_core1-default.tcl'
+16:14:18 INFO  : Disconnected from the channel tcfchan#1.
+16:14:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:14:53 INFO  : 'fpga -state' command is executed.
+16:14:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:14:53 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:14:53 INFO  : 'jtag frequency' command is executed.
+16:14:53 INFO  : Context for 'APU' is selected.
+16:14:53 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:14:53 INFO  : 'configparams force-mem-access 1' command is executed.
+16:14:53 INFO  : Context for 'APU' is selected.
+16:14:53 INFO  : 'stop' command is executed.
+16:14:53 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:14:53 INFO  : Processor reset is completed for 'ps7_cortexa9_1'.
+16:14:53 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:14:53 INFO  : The application '/home/blue/workspace/dual_arm2/core1/Debug/core1.elf' is downloaded to processor 'ps7_cortexa9_1'.
+16:14:53 INFO  : 'configparams force-mem-access 0' command is executed.
+16:14:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+targets -set -nocase -filter {name =~ "*A9*#1"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#1"}
+dow /home/blue/workspace/dual_arm2/core1/Debug/core1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:14:53 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:14:53 INFO  : 'con' command is executed.
+16:14:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#1"}
+con
+----------------End of Script----------------
+
+16:14:53 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core1_system/_ide/scripts/debugger_core1-default.tcl'
+16:14:59 INFO  : Disconnected from the channel tcfchan#2.
+16:15:05 INFO  : Result from executing command 'getProjects': design_1_wrapper
+16:15:05 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/media/blue/2TB/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:15:08 INFO  : Checking for BSP changes to sync application flags for project 'core1'...
+16:15:12 INFO  : Checking for BSP changes to sync application flags for project 'core0'...
+16:15:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:15:15 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:15:15 INFO  : 'jtag frequency' command is executed.
+16:15:15 INFO  : Context for 'APU' is selected.
+16:15:15 INFO  : System reset is completed.
+16:15:18 INFO  : 'after 3000' command is executed.
+16:15:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:15:19 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit"
+16:15:19 INFO  : Context for 'APU' is selected.
+16:15:19 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:15:19 INFO  : 'configparams force-mem-access 1' command is executed.
+16:15:19 INFO  : Context for 'APU' is selected.
+16:15:19 INFO  : Sourcing of '/home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl' is done.
+16:15:20 INFO  : 'ps7_init' command is executed.
+16:15:20 INFO  : 'ps7_post_config' command is executed.
+16:15:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:15:20 INFO  : The application '/home/blue/workspace/dual_arm2/core0/Debug/core0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:15:20 INFO  : 'configparams force-mem-access 0' command is executed.
+16:15:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}
+fpga -file /home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/blue/workspace/dual_arm2/core0/Debug/core0.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:15:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:15:20 INFO  : 'con' command is executed.
+16:15:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:15:20 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core0_system/_ide/scripts/debugger_core0-default.tcl'
+16:15:29 INFO  : Disconnected from the channel tcfchan#4.
+16:15:43 INFO  : No changes in MSS file content so sources will not be generated.
+16:15:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:15:52 INFO  : 'fpga -state' command is executed.
+16:15:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:15:52 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:15:52 INFO  : 'jtag frequency' command is executed.
+16:15:52 INFO  : Context for 'APU' is selected.
+16:15:52 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:15:52 INFO  : 'configparams force-mem-access 1' command is executed.
+16:15:52 INFO  : Context for 'APU' is selected.
+16:15:52 INFO  : 'stop' command is executed.
+16:15:52 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:15:52 INFO  : Processor reset is completed for 'ps7_cortexa9_1'.
+16:15:52 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:15:52 INFO  : The application '/home/blue/workspace/dual_arm2/core1/Debug/core1.elf' is downloaded to processor 'ps7_cortexa9_1'.
+16:15:52 INFO  : 'configparams force-mem-access 0' command is executed.
+16:15:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+targets -set -nocase -filter {name =~ "*A9*#1"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#1"}
+dow /home/blue/workspace/dual_arm2/core1/Debug/core1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:15:52 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:15:52 INFO  : 'con' command is executed.
+16:15:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#1"}
+con
+----------------End of Script----------------
+
+16:15:52 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core1_system/_ide/scripts/debugger_core1-default.tcl'
+16:17:03 INFO  : Disconnected from the channel tcfchan#5.
+16:17:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:17:17 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:17:17 INFO  : 'jtag frequency' command is executed.
+16:17:17 INFO  : Context for 'APU' is selected.
+16:17:17 INFO  : System reset is completed.
+16:17:20 INFO  : 'after 3000' command is executed.
+16:17:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:17:21 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit"
+16:17:21 INFO  : Context for 'APU' is selected.
+16:17:21 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:17:21 INFO  : 'configparams force-mem-access 1' command is executed.
+16:17:21 INFO  : Context for 'APU' is selected.
+16:17:21 INFO  : Sourcing of '/home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl' is done.
+16:17:21 INFO  : 'ps7_init' command is executed.
+16:17:21 INFO  : 'ps7_post_config' command is executed.
+16:17:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:17:22 INFO  : The application '/home/blue/workspace/dual_arm2/core0/Debug/core0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:17:22 INFO  : 'configparams force-mem-access 0' command is executed.
+16:17:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}
+fpga -file /home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/blue/workspace/dual_arm2/core0/Debug/core0.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:17:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:17:22 INFO  : 'con' command is executed.
+16:17:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:17:22 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core0_system/_ide/scripts/debugger_core0-default.tcl'
+16:17:48 INFO  : Disconnected from the channel tcfchan#6.
+16:17:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:17:57 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:17:57 INFO  : 'jtag frequency' command is executed.
+16:17:57 INFO  : Context for 'APU' is selected.
+16:17:57 INFO  : System reset is completed.
+16:18:00 INFO  : 'after 3000' command is executed.
+16:18:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:18:01 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit"
+16:18:01 INFO  : Context for 'APU' is selected.
+16:18:01 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:18:01 INFO  : 'configparams force-mem-access 1' command is executed.
+16:18:01 INFO  : Context for 'APU' is selected.
+16:18:01 INFO  : Sourcing of '/home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl' is done.
+16:18:01 INFO  : 'ps7_init' command is executed.
+16:18:01 INFO  : 'ps7_post_config' command is executed.
+16:18:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:18:01 INFO  : The application '/home/blue/workspace/dual_arm2/core0/Debug/core0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:18:01 INFO  : 'configparams force-mem-access 0' command is executed.
+16:18:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}
+fpga -file /home/blue/workspace/dual_arm2/core0/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/blue/workspace/dual_arm2/core0/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/blue/workspace/dual_arm2/core0/Debug/core0.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:18:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:18:01 INFO  : 'con' command is executed.
+16:18:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:18:01 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core0_system/_ide/scripts/debugger_core0-default.tcl'
+16:18:12 INFO  : Disconnected from the channel tcfchan#7.
+16:18:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:18:20 INFO  : 'fpga -state' command is executed.
+16:18:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:18:20 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:18:20 INFO  : 'jtag frequency' command is executed.
+16:18:20 INFO  : Context for 'APU' is selected.
+16:18:20 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:18:20 INFO  : 'configparams force-mem-access 1' command is executed.
+16:18:20 INFO  : Context for 'APU' is selected.
+16:18:20 INFO  : 'stop' command is executed.
+16:18:20 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:18:20 INFO  : Processor reset is completed for 'ps7_cortexa9_1'.
+16:18:20 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:18:20 INFO  : The application '/home/blue/workspace/dual_arm2/core1/Debug/core1.elf' is downloaded to processor 'ps7_cortexa9_1'.
+16:18:20 INFO  : 'configparams force-mem-access 0' command is executed.
+16:18:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+targets -set -nocase -filter {name =~ "*A9*#1"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#1"}
+dow /home/blue/workspace/dual_arm2/core1/Debug/core1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:18:20 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:18:20 INFO  : 'con' command is executed.
+16:18:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#1"}
+con
+----------------End of Script----------------
+
+16:18:20 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core1_system/_ide/scripts/debugger_core1-default.tcl'
+16:19:16 INFO  : Disconnected from the channel tcfchan#8.
+16:19:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:19:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:19:38 INFO  : 'jtag frequency' command is executed.
+16:19:38 INFO  : Context for 'APU' is selected.
+16:19:38 INFO  : System reset is completed.
+16:19:41 INFO  : 'after 3000' command is executed.
+16:19:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:19:42 INFO  : Device configured successfully with "/home/blue/workspace/dual_arm2/core1/_ide/bitstream/design_1_wrapper.bit"
+16:19:42 INFO  : Context for 'APU' is selected.
+16:19:42 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:19:42 INFO  : 'configparams force-mem-access 1' command is executed.
+16:19:42 INFO  : Context for 'APU' is selected.
+16:19:42 INFO  : Sourcing of '/home/blue/workspace/dual_arm2/core1/_ide/psinit/ps7_init.tcl' is done.
+16:19:42 INFO  : 'ps7_init' command is executed.
+16:19:42 INFO  : 'ps7_post_config' command is executed.
+16:19:42 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:19:42 INFO  : The application '/home/blue/workspace/dual_arm2/core1/Debug/core1.elf' is downloaded to processor 'ps7_cortexa9_1'.
+16:19:42 INFO  : 'configparams force-mem-access 0' command is executed.
+16:19:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}
+fpga -file /home/blue/workspace/dual_arm2/core1/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/blue/workspace/dual_arm2/core1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#1"}
+dow /home/blue/workspace/dual_arm2/core1/Debug/core1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:19:42 INFO  : Context for processor 'ps7_cortexa9_1' is selected.
+16:19:42 INFO  : 'con' command is executed.
+16:19:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#1"}
+con
+----------------End of Script----------------
+
+16:19:42 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core1_system/_ide/scripts/debugger_core1-default.tcl'
+16:19:53 INFO  : Disconnected from the channel tcfchan#9.
+16:20:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:20:06 INFO  : 'fpga -state' command is executed.
+16:20:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:20:06 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:20:06 INFO  : 'jtag frequency' command is executed.
+16:20:06 INFO  : Context for 'APU' is selected.
+16:20:06 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:20:06 INFO  : 'configparams force-mem-access 1' command is executed.
+16:20:06 INFO  : Context for 'APU' is selected.
+16:20:06 INFO  : 'stop' command is executed.
+16:20:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:20:06 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:20:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:20:06 INFO  : The application '/home/blue/workspace/dual_arm2/core0/Debug/core0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:20:06 INFO  : 'configparams force-mem-access 0' command is executed.
+16:20:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/blue/workspace/dual_arm2/core0/Debug/core0.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:20:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:20:06 INFO  : 'con' command is executed.
+16:20:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:20:06 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core0_system/_ide/scripts/debugger_core0-default.tcl'
+16:27:13 INFO  : Disconnected from the channel tcfchan#10.
+16:27:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6DCBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6DCBA-13722093-0"}' command is executed.
+16:27:23 INFO  : 'fpga -state' command is executed.
+16:27:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:27:23 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6DCBA' is selected.
+16:27:23 INFO  : 'jtag frequency' command is executed.
+16:27:23 INFO  : Context for 'APU' is selected.
+16:27:23 INFO  : Hardware design and registers information is loaded from '/home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:27:23 INFO  : 'configparams force-mem-access 1' command is executed.
+16:27:23 INFO  : Context for 'APU' is selected.
+16:27:23 INFO  : 'stop' command is executed.
+16:27:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:27:24 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:27:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:27:24 INFO  : The application '/home/blue/workspace/dual_arm2/core0/Debug/core0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:27:24 INFO  : 'configparams force-mem-access 0' command is executed.
+16:27:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/blue/workspace/dual_arm2/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/blue/workspace/dual_arm2/core0/Debug/core0.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:27:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:27:24 INFO  : 'con' command is executed.
+16:27:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:27:24 INFO  : Launch script is exported to file '/home/blue/workspace/dual_arm2/core0_system/_ide/scripts/debugger_core0-default.tcl'
+16:54:37 INFO  : Disconnected from the channel tcfchan#11.
+20:47:08 DEBUG : Logs will be stored at '/home/blue/workspace/dual_arm2/IDE.log'.
+20:47:08 INFO  : Launching XSCT server: xsct -n  -interactive /home/blue/workspace/dual_arm2/temp_xsdb_launch_script.tcl
+20:47:09 INFO  : Registering command handlers for Vitis TCF services
+20:47:10 INFO  : Platform repository initialization has completed.
+20:47:10 INFO  : XSCT server has started successfully.
+20:47:10 INFO  : Successfully done setting XSCT server connection channel  
+20:47:10 INFO  : plnx-install-location is set to ''
+20:47:10 INFO  : Successfully done query RDI_DATADIR 
+20:47:10 INFO  : Successfully done setting workspace for the tool. 

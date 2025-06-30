@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xuartlite.h"
+#include "uart.h"
+#include "sleep.h"
+
+XGpio gpio;
+XGpio_Config *gpio_config;
+
+XUartLite uart0;
+XUartLite_Config *uart_config0;
+
+void gpio_init(){
+	int status=0;
+	gpio_config = XGpio_LookupConfig(XPAR_LED_CORE_0_DEVICE_ID);
+	status = XGpio_CfgInitialize(&gpio, gpio_config, gpio_config->BaseAddress);
+	if(status == XST_SUCCESS)
+		xil_printf("gpio success \n");
+	else
+		xil_printf("gpio failed \n");
+}
+int uart_init(){
+
+	int Status;
+	Status = uart_initialize(&uart0, &uart_config0, XPAR_UARTLITE_0_DEVICE_ID);
+	if(Status != XST_SUCCESS){
+		xil_printf("uart not_initiliaze \n\r");
+		return XST_FAILURE;
+	}
+	xil_printf("uart is initiliaze \n\r");
+	return XST_SUCCESS;
+}
+
+int main()
+{
+	u8 data = 1;
+	u8 buf ={0};
+    init_platform();
+    print("Hello World\n\r");
+    gpio_init();
+    uart_init();
+    u8 datas=0;
+
+    XGpio_SetDataDirection(&gpio, 1, 0);
+    while(1){
+		uart_send_data(&uart0, &data, sizeof(data));
+		uart_receive_data(&uart0, &buf, sizeof(buf));
+
+		if(buf == 2){
+			datas = !datas;
+			XGpio_DiscreteWrite(&gpio, 1, datas);
+			sleep(1);
+			buf=0;
+		}
+    }
+
+    cleanup_platform();
+    return 0;
+}
